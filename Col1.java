@@ -26,6 +26,11 @@ class Col1{
 		int min = Collections.min(list);
 		System.out.println("MINIMUN  integer is  :-" + min);
 		
+		int get = list.get(2);		
+		System.out.println("acccess num from the position2  :-" + get);
 		
+		list.add(3,95);
+		
+		System.out.println("Insertt at position 3 :- " + list);
 	}
 }
